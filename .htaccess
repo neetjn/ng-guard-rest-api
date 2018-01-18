@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^apps\.driver$ /api/driver.php [L]
+RewriteRule ^apps\.dbg$ /dbg/run.php [L]
